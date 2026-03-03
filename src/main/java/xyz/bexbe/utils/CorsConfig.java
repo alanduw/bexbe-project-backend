@@ -15,7 +15,9 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "http://localhost:5174",
-                                "https://bexbe-project-webapp-731380933874.europe-west1.run.app")
+                                "https://bexbe-project-webapp-731380933874.europe-west1.run.app",
+                                "https://bexbe.xyz"
+                        )
                         .allowedMethods("*");
             }
         };
